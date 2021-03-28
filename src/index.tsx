@@ -1,7 +1,18 @@
 import { NativeModules } from 'react-native';
 
+type SmartConfigRequest = {
+  ssid: string;
+  password: string;
+};
+
+type SmartConfigResult = {
+  bssid: string;
+  ipv4: string;
+};
+
 type SmartconfigType = {
-  multiply(a: number, b: number): Promise<number>;
+  start(request: SmartConfigRequest): Promise<SmartConfigResult>;
+  stop(): void;
 };
 
 const { Smartconfig } = NativeModules;
