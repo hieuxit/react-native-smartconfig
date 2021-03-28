@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* Smartconfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Smartconfig.m */; };
-		F4FF95D7245B92E800C19C63 /*  Smartconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  Smartconfig.swift */; };
-
+		F4FF95D7245B92E800C19C63 /* Smartconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* Smartconfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +24,45 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libSmartconfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmartconfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
 		B3E7B5891CC2AC0600A0062D /* Smartconfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Smartconfig.m; sourceTree = "<group>"; };
+		B99E0F1626107F7F00ABF6B8 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		B99E0F1726107F7F00ABF6B8 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		B99E0F1826107F7F00ABF6B8 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		B99E0F1926107F7F00ABF6B8 /* ESPVersionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		B99E0F1A26107F7F00ABF6B8 /* ESPTouchTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		B99E0F1B26107F7F00ABF6B8 /* ESPTouchTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		B99E0F1D26107F7F00ABF6B8 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		B99E0F1E26107F7F00ABF6B8 /* ESP_NetUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		B99E0F1F26107F7F00ABF6B8 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		B99E0F2026107F7F00ABF6B8 /* ESPDataCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		B99E0F2126107F7F00ABF6B8 /* Smartconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smartconfig.h; sourceTree = "<group>"; };
+		B99E0F2226107F7F00ABF6B8 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		B99E0F2326107F8000ABF6B8 /* ESP_NetUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		B99E0F2426107F8000ABF6B8 /* ESPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPViewController.h; sourceTree = "<group>"; };
+		B99E0F2526107F8000ABF6B8 /* ESPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPAppDelegate.m; sourceTree = "<group>"; };
+		B99E0F2626107F8000ABF6B8 /* ESPTouchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		B99E0F2726107F8000ABF6B8 /* ESPGuideCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		B99E0F2826107F8000ABF6B8 /* IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		B99E0F2926107F8000ABF6B8 /* ESPGuideCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		B99E0F2A26107F8000ABF6B8 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		B99E0F2B26107F8000ABF6B8 /* EspTouchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EspTouchDemo-Info.plist"; sourceTree = "<group>"; };
+		B99E0F2C26107F8000ABF6B8 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		B99E0F2D26107F8000ABF6B8 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		B99E0F2E26107F8000ABF6B8 /* EspTouchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EspTouchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B99E0F2F26107F8000ABF6B8 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		B99E0F3026107F8000ABF6B8 /* ESPTouchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		B99E0F3126107F8000ABF6B8 /* ESPDatumCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		B99E0F3226107F8000ABF6B8 /* ESP_CRC8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		B99E0F3326107F8000ABF6B8 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		B99E0F3426107F8000ABF6B8 /* ESP_CRC8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		B99E0F3526107F8000ABF6B8 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		B99E0F3626107F8000ABF6B8 /* IPAddress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		B99E0F3726107F8000ABF6B8 /* ESPDatumCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		B99E0F3826107F8000ABF6B8 /* ESPDataCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		B99E0F3926107F8000ABF6B8 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		B99E0F3A26107F8000ABF6B8 /* ESPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPAppDelegate.h; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* Smartconfig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smartconfig-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* Smartconfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartconfig.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +87,45 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
+				B99E0F2F26107F8000ABF6B8 /* ESP_ByteUtil.h */,
+				B99E0F2C26107F8000ABF6B8 /* ESP_ByteUtil.m */,
+				B99E0F3226107F8000ABF6B8 /* ESP_CRC8.h */,
+				B99E0F3426107F8000ABF6B8 /* ESP_CRC8.m */,
+				B99E0F1E26107F7F00ABF6B8 /* ESP_NetUtil.h */,
+				B99E0F2326107F8000ABF6B8 /* ESP_NetUtil.m */,
+				B99E0F1826107F7F00ABF6B8 /* ESP_WifiUtil.h */,
+				B99E0F1626107F7F00ABF6B8 /* ESP_WifiUtil.m */,
+				B99E0F3A26107F8000ABF6B8 /* ESPAppDelegate.h */,
+				B99E0F2526107F8000ABF6B8 /* ESPAppDelegate.m */,
+				B99E0F3826107F8000ABF6B8 /* ESPDataCode.h */,
+				B99E0F2026107F7F00ABF6B8 /* ESPDataCode.m */,
+				B99E0F3126107F8000ABF6B8 /* ESPDatumCode.h */,
+				B99E0F3726107F8000ABF6B8 /* ESPDatumCode.m */,
+				B99E0F2926107F8000ABF6B8 /* ESPGuideCode.h */,
+				B99E0F2726107F8000ABF6B8 /* ESPGuideCode.m */,
+				B99E0F1F26107F7F00ABF6B8 /* ESPTouchDelegate.h */,
+				B99E0F2B26107F8000ABF6B8 /* EspTouchDemo-Info.plist */,
+				B99E0F2E26107F8000ABF6B8 /* EspTouchDemo-Prefix.pch */,
+				B99E0F2D26107F8000ABF6B8 /* ESPTouchGenerator.h */,
+				B99E0F3926107F8000ABF6B8 /* ESPTouchGenerator.m */,
+				B99E0F2626107F8000ABF6B8 /* ESPTouchResult.h */,
+				B99E0F3026107F8000ABF6B8 /* ESPTouchResult.m */,
+				B99E0F1B26107F7F00ABF6B8 /* ESPTouchTask.h */,
+				B99E0F1A26107F7F00ABF6B8 /* ESPTouchTask.m */,
+				B99E0F3326107F8000ABF6B8 /* ESPTouchTaskParameter.h */,
+				B99E0F1D26107F7F00ABF6B8 /* ESPTouchTaskParameter.m */,
+				B99E0F1726107F7F00ABF6B8 /* ESPUDPSocketClient.h */,
+				B99E0F3526107F8000ABF6B8 /* ESPUDPSocketClient.m */,
+				B99E0F2226107F7F00ABF6B8 /* ESPUDPSocketServer.h */,
+				B99E0F2A26107F8000ABF6B8 /* ESPUDPSocketServer.m */,
+				B99E0F1926107F7F00ABF6B8 /* ESPVersionMacro.h */,
+				B99E0F2426107F8000ABF6B8 /* ESPViewController.h */,
+				B99E0F3626107F8000ABF6B8 /* IPAddress.c */,
+				B99E0F2826107F8000ABF6B8 /* IPAddress.h */,
+				B99E0F2126107F7F00ABF6B8 /* Smartconfig.h */,
 				F4FF95D6245B92E800C19C63 /* Smartconfig.swift */,
 				B3E7B5891CC2AC0600A0062D /* Smartconfig.m */,
 				F4FF95D5245B92E700C19C63 /* Smartconfig-Bridging-Header.h */,
-
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,10 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				F4FF95D7245B92E800C19C63 /* Smartconfig.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* Smartconfig.m in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,11 +300,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Smartconfig;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "Smartconfig-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
@@ -259,10 +319,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Smartconfig;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "Smartconfig-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};
